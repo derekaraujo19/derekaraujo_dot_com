@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+/* Font used: Robato Condensed, Bold 700 - https://fonts.google.com/specimen/Roboto+Condensed?preview.size=29  */
+
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 1%;
+  /* font-size: 160%;
+  text-transform: uppercase;
+  word-spacing: 4px; */
+  /* background-color: #E5E4E2; */
+
+}
+
+.Title {
+  font-size: 380%;
+  /* padding: 0%; */
+  /* margin-top: -75px;
+  margin-bottom: -150px;
+  margin-left: -10px; */
 }
 
 .App-logo {
@@ -13,7 +34,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +43,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;

@@ -1,6 +1,8 @@
 function Title(){
   return (
-    <h1 className="Title"> DEREK ARAUJO </h1>
+    <div className="Title">
+      <h1>DEREK ARAUJO</h1>
+    </div>
   );
 }
 
