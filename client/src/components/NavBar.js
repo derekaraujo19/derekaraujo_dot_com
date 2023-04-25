@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <div>
-      <h3>NAVBAR</h3>
+      <h2>ABOUT | PROJECTS | MUSIC</h2>
     </div>
   );
 }
