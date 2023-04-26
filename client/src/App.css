@@ -23,10 +23,16 @@ html,body{
   margin-bottom: -50px;
   margin-top: -50px;
   margin-left: -5px;
+
+  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 a {
   text-decoration: none;
+}
+
+.faIcons:hover{
+  color: red;
 }
 
 .Home {
@@ -43,41 +49,37 @@ a {
   word-spacing: 2px;
   width: 40%;
 }
+#homeText a{
+  color: pink;
+}
+#homeText a:hover{
+  color: gray;
+}
 
+.Nav{
+  text-align: right;
 
-
-.Icons {
-  position: relative;
-  margin-top:150px;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
+.Icons {
+  position: relative;
+  text-align: right;
+  margin-top:125px;
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
+}
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-/*
-.App-link {
-  color: #61dafb;
-} */
+.faIcons{
+  color: gray;
+  font-size: 1.50em;
+}
+
+.faIcons:hover{
+  color:black;
+}
+
 
 @keyframes fade-in {
   from {
