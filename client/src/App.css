@@ -29,17 +29,15 @@ html,body{
 
 a {
   text-decoration: none;
+  transition-duration: .2s;
 }
 
-.faIcons:hover{
-  color: red;
-}
 
 .Home {
   text-align: left;
   display: block;
   position: relative;
-  margin-top: 75px;
+  margin-top: 50px;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
@@ -66,19 +64,19 @@ a {
 
 .Icons {
   position: relative;
-  text-align: right;
+  text-align: center;
   margin-top:125px;
 
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 .faIcons{
-  color: black;
+  color:#848884;
   font-size: 1.50em;
 }
 
 .faIcons:hover{
-  color:#848884;
+  color:black;
 }
 
 
