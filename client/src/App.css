@@ -50,10 +50,11 @@ a {
   width: 40%;
 }
 #homeText a{
-  color: pink;
+  color:#848884;
+  /* color: #F3CFC6; */
 }
 #homeText a:hover{
-  color: gray;
+  color:rgba(255, 192, 203, 0.928);
 }
 
 .Nav{
@@ -72,12 +73,12 @@ a {
 }
 
 .faIcons{
-  color: gray;
+  color: black;
   font-size: 1.50em;
 }
 
 .faIcons:hover{
-  color:black;
+  color:#848884;
 }
 
 
