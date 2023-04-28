@@ -4,7 +4,6 @@ import { FaGithub, FaLinkedin, FaSpotify, FaMediumM, FaInstagram,FaEnvelope } fr
 
 function Footnote(){
 
-// const style = { color: "black", fontSize: "1.5em"}
 
   return (
         <footer className="Icons">

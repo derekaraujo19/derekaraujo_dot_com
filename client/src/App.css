@@ -11,8 +11,9 @@ html,body{
   font-family: 'Roboto Condensed', sans-serif;
   margin: 1%;
   display: flexbox;
-  /* font-size: 160%;
   text-transform: uppercase;
+  /* font-size: 160%;
+
   word-spacing: 4px; */
   /* background-color: #E5E4E2; */
 }
@@ -27,9 +28,17 @@ html,body{
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
+.nav_link {
+  color: #848884;
+  font-size: 2em;
+}
+.nav_link:hover {
+  color: rgba(255, 192, 203, 0.928);
+}
+
 a {
   text-decoration: none;
-  transition-duration: .2s;
+  transition-duration: .3s;
 }
 
 
@@ -43,7 +52,6 @@ a {
 
 #homeText {
   font-size: 1.5em;
-  text-transform:uppercase;
   word-spacing: 2px;
   width: 40%;
 }
