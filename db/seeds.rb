@@ -12,6 +12,7 @@ Project.destroy_all
 # Projects
 puts "Seeding Projects..."
 
+# Liner Notes
 liner = Project.create!(
   screenshot: "",
   title: "Liner Notes",
@@ -20,6 +21,7 @@ liner = Project.create!(
   github_link: "https://github.com/derekaraujo19/liner-notes-final",
   demo_link: "https://www.youtube.com/watch?v=W5fqM41CFrk&ab_channel=DerekAraujo", tech_used: "React, Ruby on Rails, 'bcrypt' and user authorization")
 
+# Portfolio
 portfolio = Project.create!(
   screenshot: "",
   title: "Personal Portfolio",
@@ -30,4 +32,12 @@ portfolio = Project.create!(
   tech_used: "React, Ruby on Rails")
 
 # BringAJacket
+jacket = Project.create!(
+  screenshot: "",
+  title: "Bring-A-Jacket")
+
+
 # DiscSnob
+discsnob = Project.create!(
+  title: "DiscSnob"
+)

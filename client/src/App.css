@@ -69,6 +69,19 @@ a {
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
+.Projects{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 50px;
+  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
+}
+
+.ProjectCard {
+  width: 500px;
+  min-width: auto;
+  margin: 20px;
+}
 
 .Icons {
   position: relative;
