@@ -21,6 +21,11 @@ liner = Project.create!(
   github_link: "https://github.com/derekaraujo19/liner-notes-final",
   demo_link: "https://www.youtube.com/watch?v=W5fqM41CFrk&ab_channel=DerekAraujo", tech_used: "React, Ruby on Rails, 'bcrypt' and user authorization")
 
+# BringAJacket
+jacket = Project.create!(
+  screenshot: "",
+  title: "Bring-A-Jacket")
+
 # Portfolio
 portfolio = Project.create!(
   screenshot: "",
@@ -30,12 +35,6 @@ portfolio = Project.create!(
   github_link: "https://github.com/derekaraujo19/derekaraujo_dot_com",
   demo_link: "",
   tech_used: "React, Ruby on Rails")
-
-# BringAJacket
-jacket = Project.create!(
-  screenshot: "",
-  title: "Bring-A-Jacket")
-
 
 # DiscSnob
 discsnob = Project.create!(

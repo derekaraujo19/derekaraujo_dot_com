@@ -4,14 +4,16 @@
 
 html,body{
   height: 100%;
+  background-color: #FAF9F6;
 }
 
 .App {
-  /* text-align: center; */
+  text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   margin: 1%;
   display: flexbox;
   text-transform: uppercase;
+
   /* font-size: 160%;
 
   word-spacing: 4px; */
@@ -43,17 +45,24 @@ a {
 
 
 .Home {
-  text-align: left;
+  /* text-align: left;
   display: block;
-  position: relative;
+  position: relative; */
+
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 #homeText {
   font-size: 1.5em;
   word-spacing: 2px;
-  width: 40%;
+  width: 500px;
+  margin-top: 200px;
+  position: relative;
 }
 #homeText a{
   color:#848884;
@@ -65,7 +74,7 @@ a {
 
 .Nav{
   text-align: right;
-
+  margin-right: 40px;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
@@ -81,6 +90,10 @@ a {
   width: 500px;
   min-width: auto;
   margin: 20px;
+  padding: 10px;
+  color: #676a67;
+  background-color: white;
+  border-radius: 2px;
 }
 
 .Icons {
