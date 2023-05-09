@@ -13,9 +13,7 @@ html,body{
   margin: 1%;
   display: flexbox;
   text-transform: uppercase;
-
   /* font-size: 160%;
-
   word-spacing: 4px; */
   /* background-color: #E5E4E2; */
 }
@@ -23,24 +21,28 @@ html,body{
 .Title {
   font-size: 380%;
   position: relative;
-  margin-bottom: -50px;
+  margin-bottom: -85px;
   margin-top: -50px;
   margin-left: -5px;
-
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
-}
-
-.nav_link {
-  color: #848884;
-  font-size: 2em;
-}
-.nav_link:hover {
-  color: rgba(255, 192, 203, 0.928);
 }
 
 a {
   text-decoration: none;
   transition-duration: .3s;
+}
+/* NavBar */
+.nav_link {
+  color: #848884;
+  font-size: 1.5em;
+}
+.nav_link:hover {
+  color: rgba(255, 192, 203, 0.928);
+}
+.Nav{
+  text-align: right;
+  margin-right: 40px;
+  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 
@@ -72,11 +74,7 @@ a {
   color:rgba(255, 192, 203, 0.928);
 }
 
-.Nav{
-  text-align: right;
-  margin-right: 40px;
-  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
-}
+
 
 .Projects{
   display: inline-grid;
