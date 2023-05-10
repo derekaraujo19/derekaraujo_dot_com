@@ -74,26 +74,42 @@ a {
   color:rgba(255, 192, 203, 0.928);
 }
 
-
-
+/* Projects */
 .Projects{
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
-
   margin-top: 50px;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
-
 .ProjectCard {
-  width: 500px;
+  width: 700px;
   min-width: auto;
   margin: 20px;
   padding: 10px;
-  color: #676a67;
+  color: black;
+  font-size: 1em;
   background-color: white;
   border-radius: 2px;
+  text-align: left;
+}
+#proj_desc {
+  color:#676a67;
+  margin-bottom: 20px;
+}
+.ProjIconList{
+  list-style: none;
+  line-height: 1.75em;
+
+}
+.ProjIcons {
+  color: #848884;
+  font-size: 1em;
+}
+.ProjIcons:hover {
+  color: black;
 }
 
+/* Footnote */
 .Icons {
   position: relative;
   text-align: center;
@@ -101,12 +117,10 @@ a {
 
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
-
 .faIcons{
   color:#848884;
   font-size: 1.50em;
 }
-
 .faIcons:hover{
   color:black;
 }
