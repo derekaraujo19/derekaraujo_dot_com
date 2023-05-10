@@ -99,6 +99,7 @@ a {
 .ProjIconList{
   list-style: none;
   line-height: 1.75em;
+  margin-bottom: 30px;
 
 }
 .ProjIcons {
@@ -107,6 +108,13 @@ a {
 }
 .ProjIcons:hover {
   color: black;
+}
+
+#tech_used {
+  list-style: none;
+  margin-top: 5px;
+  font-size: .85em;
+  color:#676a67;
 }
 
 /* Footnote */

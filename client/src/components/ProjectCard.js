@@ -17,6 +17,9 @@ function ProjectCard({project}) {
         <li><a href={project.github_link} className="ProjIcons" target="_blank" rel='noopener noreferrer'> <FaGithub/> Github </a></li>
         {project.demo_link ? <li><a href={project.demo_link} className="ProjIcons" target="_blank" rel='noopener noreferrer'> <FaYoutube/> Demo </a></li> : ""}
       </div>
+      <div> Tech used:
+        <li id="tech_used">{project.tech_used}</li>
+      </div>
     </div>
   );
 }
