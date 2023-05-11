@@ -1,6 +1,28 @@
+import React, { useState, useEffect } from "react";
+import MusicCard from "./MusicCard";
+
 function Music() {
+  const [songs, setSongs] = useState([]);
+
+
+  useEffect(() => {
+    fetch('/api/songs')
+      .then((r) => r.json())
+      .then((songs) => setSongs(songs));
+  }, []);
+
+  console.log(songs);
+
   return (
-    <h1>Music!!!</h1>
+    <div className="MusicPage">
+      {songs.map((song) => (
+        <MusicCard
+          key={song.id}
+          song={song}
+        />
+
+      ))}
+    </div>
   );
 }
 
