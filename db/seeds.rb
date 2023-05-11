@@ -2,9 +2,9 @@
 
 
 # Project.destroy_all
-# Song.destroy_all
+Song.destroy_all
 
-# # Projects
+# Projects
 # puts "Seeding Projects..."
 
 # # Liner Notes
@@ -41,43 +41,43 @@
 # Songs
 puts "Seeding Songs..."
 
-# road = Song.create!(
-#   title: "Here at the End of the Road",
-#   year: "2019",
-#   artist: "Strangethings",
-#   credits: "artist--producer--writer",
-#   spotify_link: "https://open.spotify.com/embed/track/4w3gBqDqAGSwhStg1mElCq?utm_source=generator&theme=0"
-# )
+road = Song.create!(
+  title: "Here at the End of the Road",
+  year: "2019",
+  artist: "Strangethings",
+  credits: "artist--producer--writer",
+  spotify_link: "https://open.spotify.com/embed/track/4w3gBqDqAGSwhStg1mElCq?utm_source=generator&theme=0"
+)
 
-# things = Song.create!(
-#   title: "Strange Things (Are Happening to Me)",
-#   year: "2015",
-#   artist: "Strangethings",
-#   credits: "artist--producer--writer",
-#   spotify_link: "https://open.spotify.com/embed/track/24Yc8hds2PMZ0l4WdJEyk3?utm_source=generator&theme=0"
-# )
+things = Song.create!(
+  title: "Strange Things (Are Happening to Me)",
+  year: "2015",
+  artist: "Strangethings",
+  credits: "artist--producer--writer",
+  spotify_link: "https://open.spotify.com/embed/track/24Yc8hds2PMZ0l4WdJEyk3?utm_source=generator&theme=0"
+)
 
-# moon = Song.create!(
-#   title: "The Far Side of the Moon",
-#   year: "2015",
-#   artist: "Strangethings",
-#   credits: "artist--producer--writer",
-#   spotify_link: "https://open.spotify.com/embed/track/17yvQx92Gqj5f6NxUEZ7In?utm_source=generator&theme=0"
-# )
+moon = Song.create!(
+  title: "The Far Side of the Moon",
+  year: "2015",
+  artist: "Strangethings",
+  credits: "artist--producer--writer",
+  spotify_link: "https://open.spotify.com/embed/track/17yvQx92Gqj5f6NxUEZ7In?utm_source=generator&theme=0"
+)
 
-# over = Song.create!(
-#   title: "Over Me (feat. Jenny Ray)",
-#   year: "2015",
-#   artist: "Strangethings, Jenny Ray",
-#   credits: "artist--producer--writer",
-#   spotify_link: "https://open.spotify.com/embed/track/7DRW8Oj7jxTvrtie2AxZOT?utm_source=generator&theme=0"
-# )
+over = Song.create!(
+  title: "Over Me (feat. Jenny Ray)",
+  year: "2015",
+  artist: "Strangethings, Jenny Ray",
+  credits: "artist--producer--writer",
+  spotify_link: "https://open.spotify.com/embed/track/7DRW8Oj7jxTvrtie2AxZOT?utm_source=generator&theme=0"
+)
 
-# bright = Song.create!(
-#   title: "Bright Lights & Cigarettes",
-#   year: "2015",
-#   artist: "Strangethings",
-#   credits: "artist--producer--writer",
-#   spotify_link: "https://open.spotify.com/embed/track/1CluRM8W4LhnNh2I5IXzGQ?utm_source=generator&theme=0"
-# )
+bright = Song.create!(
+  title: "Bright Lights & Cigarettes",
+  year: "2015",
+  artist: "Strangethings",
+  credits: "artist--producer--writer",
+  spotify_link: "https://open.spotify.com/embed/track/1CluRM8W4LhnNh2I5IXzGQ?utm_source=generator&theme=0"
+)
 
