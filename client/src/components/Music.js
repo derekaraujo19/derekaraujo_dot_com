@@ -11,7 +11,6 @@ function Music() {
       .then((songs) => setSongs(songs));
   }, []);
 
-  console.log(songs);
 
   return (
     <div className="MusicPage">

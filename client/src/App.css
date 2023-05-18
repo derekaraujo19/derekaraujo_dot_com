@@ -2,36 +2,54 @@
 
 /* Font used: Robato Condensed, Bold 700 - https://fonts.google.com/specimen/Roboto+Condensed?preview.size=29  */
 
-html,body{
+html{
   height: 100%;
-  background-color: #FAF9F6;
+  background-color: #faf9f6;
+  overflow-y: scroll;
+  /* background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png"); */
+  /* background-image: url("https://www.transparenttextures.com/patterns/dust.png"); */
 }
 
 .App {
+  background-color: #faf9f6;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
-  margin: 1%;
   display: flexbox;
   text-transform: uppercase;
-  /* font-size: 160%;
-  word-spacing: 4px; */
-  /* background-color: #E5E4E2; */
+
+  /* Fade Ins: */
+  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 .Title {
-  font-size: 380%;
-  position: relative;
-  margin-bottom: -85px;
-  margin-top: -50px;
-  margin-left: -5px;
-  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
+  font-size: 9rem;
+  margin-bottom: 1px;
 }
+@media screen and (max-width: 1000px) {
+  .Title {
+     font-size: 5rem;
+      text-align: left;
+  }
+  .Nav {
+    text-align: left;
+  }
+}
+/*
+.rows{
+  border: 2px solid red;
+}
+.columns{
+  border: 2px solid black;
+} */
 
 a {
   text-decoration: none;
   transition-duration: .3s;
 }
 /* NavBar */
+.Nav {
+  margin-bottom: 10px;
+}
 .nav_link {
   color: #848884;
   font-size: 1.5em;
@@ -39,39 +57,53 @@ a {
 .nav_link:hover {
   color: rgba(255, 192, 203, 0.928);
 }
-.Nav{
-  text-align: right;
-  margin-right: 40px;
-  animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
-}
+
 
 
 .Home {
-  /* text-align: left;
-  display: block;
-  position: relative; */
-
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* Fade Ins: */
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
 #homeText {
+  /* border: 2px solid green; */
   font-size: 1.5em;
-  word-spacing: 2px;
-  width: 500px;
-  margin-top: 200px;
-  position: relative;
+  word-spacing: 3px;
+  margin-top: 150px;
+  max-width: 600px;
 }
 #homeText a{
   color:#848884;
-  /* color: #F3CFC6; */
+
 }
 #homeText a:hover{
   color:rgba(255, 192, 203, 0.928);
+}
+#homeImage{
+  height: 600px;
+  width:auto;
+  /* padding: 10px; */
+  box-shadow: 5px 5px 18px 1px rgba(222, 219, 222, 0.6);
+}
+@media screen and (max-width: 1000px) {
+  .Home{
+    margin-top: 75px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #homeText {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  #homeImage{
+    height: 350px;
+    width: auto;
+    float: left;
+  }
 }
 
 /* Projects */
@@ -89,8 +121,12 @@ a {
   color: black;
   font-size: 1em;
   background-color: white;
-  border-radius: 2px;
+  border-radius: 4px;
   text-align: left;
+
+  /* -webkit-box-shadow: 1px 1px 5px 1px rgba(173,170,173,0.6);
+  -moz-box-shadow: 1px 1px 5px 1px rgba(173,170,173,0.6); */
+  box-shadow: 1px 1px 5px 1px rgba(222, 219, 222, 0.6);
 }
 #proj_desc {
   color:#676a67;
@@ -119,10 +155,12 @@ a {
 /* Music */
 .MusicPage{
   margin-top: 80px;
+  text-align: center;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 .MusicCard{
   line-height: 10px;
+  text-align: center;
 }
 
 

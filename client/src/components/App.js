@@ -5,22 +5,25 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Music from "./Music";
 import Footnote from "./Footnote";
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-
 
 
 function App() {
   return (
     <div className="App">
-      <Title />
-      <NavBar />
-      <Routes>
-        <Route exact path="/about" element={<Home />} />
-        <Route path="" element={<Navigate to="/about" />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/music" element={<Music />} />
-      </Routes>
-      <Footnote />
+      <Container fluid>
+        <Title />
+        <NavBar />
+        <Routes>
+          <Route exact path="/about" element={<Home />} />
+          <Route path="" element={<Navigate to="/about" />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/music" element={<Music />} />
+        </Routes>
+        <Footnote />
+      </Container>
     </div>
   );
 }
