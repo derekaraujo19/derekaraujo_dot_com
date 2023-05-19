@@ -13,6 +13,8 @@ function Footnote(){
           <a href="https://open.spotify.com/artist/0RW4vRpFksiQDl8gXO7NPI?si=QccPTEkFTl6JPrMEPPJm8Q" className="faIcons" target="_blank" rel="noopener noreferrer" > <FaSpotify /></a>
           <a href="https://www.instagram.com/derek_araujo/"  className="faIcons" target="_blank" rel='noopener noreferrer'> <FaInstagram/> </a>
           <a href="mailto:derekaraujo19@gmail.com" className="faIcons" target="_blank" rel='noopener noreferrer'> <FaEnvelope /> </a>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
         </footer>
   );
 }

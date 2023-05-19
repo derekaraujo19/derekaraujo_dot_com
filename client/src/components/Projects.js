@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+
 
 function Projects(){
   const [projects, setProjects] = useState([]);
@@ -13,12 +17,19 @@ function Projects(){
 
   return(
     <div className="Projects">
-      {projects.map((project) => (
-        <ProjectCard
-          key={project.id}
-          project={project}
-        />
-      ))}
+      <Container>
+        <Row className="rows">
+          {projects.map((project) => (
+            <Col className="px-4" xl={6}  lg={6} md={12} key={project.id}>
+              <ProjectCard
+              key={project.id}
+              project={project}
+              />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+
     </div>
   );
 }
