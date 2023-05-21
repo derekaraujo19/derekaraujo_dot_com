@@ -20,7 +20,7 @@ function Projects(){
       <Container>
         <Row className="rows">
           {projects.map((project) => (
-            <Col className="px-4" xl={6}  lg={6} md={12} key={project.id}>
+            <Col className="px-4 columns" xl={6}  lg={6} md={12} key={project.id}>
               <ProjectCard
               key={project.id}
               project={project}

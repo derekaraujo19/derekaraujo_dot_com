@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
-
 /* Font used: Robato Condensed, Bold 700 - https://fonts.google.com/specimen/Roboto+Condensed?preview.size=29  */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+/* https://fonts.google.com/specimen/Archivo+Narrow?preview.size=29&query=Archivo+&preview.text=database%20and%20note-taking%20app&preview.text_type=custom */
 
 html{
   height: 100%;
@@ -39,8 +41,8 @@ html{
     font-size: 3.5rem;
   }
 } */
-
-/* .rows{
+/*
+.rows{
   border: 2px solid red;
 }
 .columns{
@@ -67,7 +69,7 @@ a {
 
 
 .Home {
-  margin-top: 100px;
+  margin-top: 80px;
   /* margin-left: 200px;
   margin-right: 200px; */
   /* Fade Ins: */
@@ -116,7 +118,7 @@ a {
 
 /* Projects */
 .Projects{
-  margin-top: 100px;
+  margin-top: 80px;
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
 
@@ -124,7 +126,7 @@ a {
   background-color: white;
   text-align: left;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   border-radius: 4px;
   min-height: 42rem;
   max-height: 40rem;
@@ -142,10 +144,14 @@ a {
 .ProjectText{
   padding: 10px;
   /* text-align: left; */
+  margin-top: 10px;
 }
 #proj_desc {
   color:#676a67;
   margin-bottom: 20px;
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
+  font-size: 1.2em;
 }
 .ProjIconList{
   list-style: none;
@@ -155,6 +161,8 @@ a {
 .ProjIcons {
   color: #848884;
   font-size: 1em;
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
 }
 .ProjIcons:hover {
   color: black;
@@ -162,8 +170,10 @@ a {
 #tech_used {
   list-style: none;
   margin-top: 5px;
-  font-size: .85em;
+  font-size: 1em;
   color:#676a67;
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
 }
 
 
@@ -176,6 +186,43 @@ a {
 .MusicCard{
   line-height: 10px;
   text-align: center;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  max-width: 45rem;
+/*-webkit-box-shadow: 1px 1px 5px 1px rgba(173,170,173,0.6);
+  -moz-box-shadow: 1px 1px 5px 1px rgba(173,170,173,0.6); */
+  box-shadow: 1px 1px 5px 1px rgba(222, 219, 222, 0.6);
+}
+
+#musicCardArtist {
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
+  text-align: left;
+  color:#676a67;
+}
+#musicCardCredits {
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
+  text-align: left;
+  color:#676a67;
+}
+#musicCardYear {
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
+  text-align: left;
+  color:#676a67;
+}
+#musicPlayer {
+  min-height: 10rem;
+}
+#disclaimer{
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: none;
+  text-align: right;
+  color:#676a67;
+  margin-top: 20px;
 }
 
 
