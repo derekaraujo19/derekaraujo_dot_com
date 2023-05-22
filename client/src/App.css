@@ -4,6 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
 /* https://fonts.google.com/specimen/Archivo+Narrow?preview.size=29&query=Archivo+&preview.text=database%20and%20note-taking%20app&preview.text_type=custom */
 
+
+/* Uncomment to Check Layout: */
+/* .rows{
+  border: 2px solid red;
+}
+.columns{
+  border: 2px solid green;
+} */
+
+
 html{
   height: 100%;
   background-color: #faf9f6;
@@ -41,13 +51,7 @@ html{
     font-size: 3.5rem;
   }
 } */
-/*
-.rows{
-  border: 2px solid red;
-}
-.columns{
-  border: 2px solid green;
-} */
+
 
 
 a {
@@ -66,12 +70,8 @@ a {
   color: rgba(255, 192, 203, 0.928);
 }
 
-
-
 .Home {
   margin-top: 80px;
-  /* margin-left: 200px;
-  margin-right: 200px; */
   /* Fade Ins: */
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
@@ -98,22 +98,11 @@ a {
   box-shadow: 5px 5px 18px 1px rgba(222, 219, 222, 0.6);
 }
 @media screen and (max-width: 1000px) {
-  .Home{
-    /* margin-top: 75px; */
-    /* margin-left: 0;
-    margin-right: 0; */
-
-  }
   #homeText {
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
   }
-  /* #homeImage{
-    height: 350px;
-    width: auto;
-    float: center;
-  } */
 }
 
 /* Projects */
@@ -143,7 +132,6 @@ a {
 
 .ProjectText{
   padding: 10px;
-  /* text-align: left; */
   margin-top: 10px;
 }
 #proj_desc {
@@ -185,7 +173,7 @@ a {
 }
 .MusicCard{
   line-height: 10px;
-  text-align: center;
+  text-align: left;
   background-color: white;
   padding: 15px;
   margin-bottom: 25px;
@@ -231,7 +219,6 @@ a {
   position: relative;
   text-align: center;
   margin-top:125px;
-
 
   animation-name: fade-in; animation-duration: 1s; animation-timing-function: ease-in; animation-iteration-count: 1;
 }
