@@ -9,7 +9,7 @@ puts "Seeding Projects..."
 
 # Liner Notes
 liner = Project.create!(
-  screenshot:"/images/liner.png",
+  screenshot:"/images/liner2.png",
   title: "Liner Notes",
   description: "Database and note-taking app for artists to keep track of their song and album credits.",
   deploy_link: "https://liner-notes-app.onrender.com/",
@@ -18,7 +18,7 @@ liner = Project.create!(
   tech_used: "React, Ruby on Rails, CSS, Postgresql, 'bcrypt' and user authorization")
 # BringAJacket
 jacket = Project.create!(
-  screenshot: "/images/jacket.png",
+  screenshot: "/images/jacket2.png",
   title: "Bring-A-Jacket",
   description: "Recommends appropriate outerwear based on a user's inputted location.",
   github_link: "https://github.com/derekaraujo19/phase-1-final-project",
@@ -26,7 +26,7 @@ jacket = Project.create!(
   tech_used: "JavaScript, CSS, API Requests, Geolocation")
 # Portfolio
 portfolio = Project.create!(
-  screenshot: "/images/portfolio.png",
+  screenshot: "/images/portfolio2.png",
   title: "Personal Portfolio",
   description: "Showcase of software projects and produced music.",
   deploy_link: "https://derek-araujo-app.onrender.com/",
@@ -36,7 +36,7 @@ portfolio = Project.create!(
 )
 # DiscSnob
 discsnob = Project.create!(
-  screenshot: "/images/discsnob.png",
+  screenshot: "/images/discsnob2.png",
   title: "DiscSnob",
   description: "A social hub where users can leave hot takes on their favorite albums.",
   github_link: "https://github.com/derekaraujo19/phase-4-final-project",
